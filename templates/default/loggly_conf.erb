@@ -1,0 +1,11 @@
+$ModLoad imfile
+$InputFileName <%= @params[:input_file] %>
+$InputFileTag <%= @params[:input_file_tag] %>:
+$InputFileStateFile <%= @params[:input_file_state_file] %>
+$InputFileSeverity info
+$InputRunFileMonitor
+
+$InputFilePollingInterval 10
+
+if $programname == '<%= @params[:input_file_tag] %>' then  @@logs.loggly.com:<%= @input_port %>
+& ~

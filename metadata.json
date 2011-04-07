@@ -1,0 +1,29 @@
+{
+  "suggestions": {
+  },
+  "attributes": {
+  },
+  "conflicting": {
+  },
+  "dependencies": {
+  },
+  "providing": {
+  },
+  "platforms": {
+  },
+  "license": "Apache 2.0",
+  "maintainer": "Electronic Arts, Inc.",
+  "version": "0.0.2",
+  "replacing": {
+  },
+  "maintainer_email": "ops@ea2d.com",
+  "recipes": {
+  },
+  "groupings": {
+  },
+  "name": "loggly",
+  "recommendations": {
+  },
+  "long_description": "= DESCRIPTION:\n\n= REQUIREMENTS:\n\n= ATTRIBUTES:\n\n= USAGE:\n\n",
+  "description": "Installs/Configures the loggly-python library"
+}
