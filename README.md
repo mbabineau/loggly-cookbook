@@ -27,7 +27,7 @@ Required:
 
 Optional:
 
-* `loggly.loggly_python.version` - version of the loggly-python library to install (default is 0.1.2)
+* `loggly.loggly_python.version` - version of the [loggly-python](https://github.com/EA2D/loggly-python) library to install (default is 0.1.2)
 
 JSON example:
 
