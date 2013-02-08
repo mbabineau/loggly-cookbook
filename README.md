@@ -6,8 +6,8 @@ More specifically, the `loggly_conf` definition will configure rsyslog to watch 
 
 Developed for and tested on Ubuntu 10.10 LTS
 
-Written by [EA2D](http://ea2d.com) and maintained here:
-<https://github.com/EA2D/loggly-cookbook>
+Written for [EA2D](http://ea2d.com) and maintained here:
+<https://github.com/mbabineau/loggly-cookbook>
 
 
 Requirements
@@ -27,7 +27,7 @@ Required:
 
 Optional:
 
-* `loggly.loggly_python.version` - version of the [loggly-python](https://github.com/EA2D/loggly-python) library to install (default is 0.1.2)
+* `loggly.loggly_python.version` - version of the [loggly-python](https://github.com/mbabineau/loggly-python) library to install (default is 0.1.2)
 
 JSON example:
 
@@ -54,11 +54,11 @@ Contributing
 --------------------
 Want to contribute?  Great!  Here's how:
 
-* Fork the GitHub repository (<https://github.com/EA2D/loggly-cookbook>)
+* Fork the GitHub repository (<https://github.com/mbabineau/loggly-cookbook>)
 * Apply your changes - bonus points for using a topic branch!
 * Send a pull request (see <http://help.github.com/pull-requests/>)
 
-We'll review, merge, and publish the changes!  If you have any questions, email <ops@ea2d.com>.
+I'll review, merge, and publish the changes.  If you have any questions, email <michael.babineau@gmail.com>.
 
 
 License
