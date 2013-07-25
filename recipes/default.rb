@@ -18,10 +18,16 @@
 # limitations under the License.
 #
 
-package "python-setuptools"
-easy_install_package "loggly" do
-  version node[:loggly][:loggly_python][:version]
+p = package "python-setuptools" do
+  action( node['loggly']['compiletime'] ? :nothing : :install )
 end
+p.run_action(:install) if node['loggly']['compiletime']
+
+e = easy_install_package "loggly" do
+  version node[:loggly][:loggly_python][:version]
+  action( node['loggly']['compiletime'] ? :nothing : :install )
+end
+e.run_action(:install) if node['loggly']['compiletime']
 
 file "/etc/profile.d/loggly-env.sh" do
   content <<-EOH

@@ -27,6 +27,7 @@ Required:
 
 Optional:
 
+* `loggly.compiletime` - set this to true to install loggly dependencies during the Chef compilation step (as in [build-essential](https://github.com/opscode-cookbooks/build-essential) cookbook)
 * `loggly.loggly_python.version` - version of the [loggly-python](https://github.com/mbabineau/loggly-python) library to install (default is 0.1.2)
 
 JSON example:
